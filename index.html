@@ -1,18 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descarga Respira Libre APK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descarga Respira Libre APK</title>
+  <style>
+    /* Fondo con degradado negro */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: #ffffff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    /* Botón de descarga */
+    .download-btn {
+      background-color: #9b59b6; /* lila/morado brillante */
+      border: none;
+      color: #ffffff;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .download-btn:hover {
+      background-color: #8e44ad;
+    }
+    
+
+    /* Tarjeta de descripción */
+    .card {
+      background-color: rgba(128, 128, 128, 0.7); /* gris con transparencia */
+      padding: 20px;
+      margin: 20px;
+      border-radius: 15px;
+      max-width: 90%;
+      text-align: left;
+    }
+    
+    .card p {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-    <h1>Descarga Respira Libre APK</h1>
+  <h1>Descarga Respira Libre</h1>
+  
+  <div class="card">
     <p>
-      <a href="/respira_libre.apk" download>Descargar APK</a>
+      <strong>Respira Libre</strong> es una innovadora aplicación diseñada para ayudarte en el proceso de dejar de fumar y vapear. 
     </p>
     <p>
-      Escanea el siguiente código QR para descargar:
+      La app cuenta los días que llevas sin consumir tabaco o vapear, permitiéndote visualizar tu progreso de manera clara y motivadora.
     </p>
-    <img src="qr.png" alt="Código QR para descargar la APK">
+    <p>
+      Además, muestra una serie de beneficios asociados a esta decisión, como logros alcanzados, la cantidad de dinero que has ahorrado y la cantidad de cigarrillos que no has fumado.
+    </p>
+    <p>
+      Con una interfaz intuitiva y amigable, Respira Libre se convierte en tu compañero ideal para mejorar tu salud y estilo de vida, motivándote a continuar en tu camino hacia una vida sin adicciones.
+    </p>
+  </div>
+  
+  <p>
+    <a href="/respira_libre.apk" download class="download-btn">Descargar APK</a>
+  </p>
+
 </body>
 </html>
